@@ -1,7 +1,5 @@
-import java.util.ArrayList;
+import java.util.Queue;
 
 public interface PopulateMainDeck{
-
-    public void populateMainDeck(ArrayList<Integer> deck);
-
+    public void populateMainDeck(Queue<Integer> deck);
 }

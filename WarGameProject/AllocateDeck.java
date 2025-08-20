@@ -1,5 +1,5 @@
-import java.util.ArrayList;
+import java.util.Queue;
 
 public interface AllocateDeck{
-    public void allocateDeck(ArrayList<Integer> deck1, ArrayList<Integer> deck2, ArrayList<Integer> deck3);
+    public void allocateDeck(Queue<Integer> deck1, Queue<Integer> deck2, Queue<Integer> deck3);
 }

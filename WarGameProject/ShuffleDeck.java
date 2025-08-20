@@ -1,5 +1,5 @@
-import java.util.ArrayList;
+import java.util.Queue;
 
 public interface ShuffleDeck{
-    public void shuffleDeck(ArrayList<Integer> deck);
+    public void shuffleDeck(Queue<Integer> deck);
 }
