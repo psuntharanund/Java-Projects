@@ -5,8 +5,8 @@ import java.nio.file.*;
 public class MultiThreadDownloader {
 
     public static void main(String[] args){
-        String fileURL = "https://www.hq.nasa.gov/alsj/a17/A17_FlightPlan.pdf";
-        Path savePath = Path.of("nasaPDF.pdf");
+        String fileURL = "https://en.wikipedia.org/robots.txt";
+        Path savePath = Path.of("sample.txt");
         Runnable runnable = () -> {
             String threadName = Thread.currentThread().getName();
             System.out.println(threadName + " is running. Download started. . .");
@@ -21,4 +21,3 @@ public class MultiThreadDownloader {
         runThread.start();
     }
 }
-
